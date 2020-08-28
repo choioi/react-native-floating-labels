@@ -49,7 +49,7 @@ var FloatingLabel = createReactClass({
 				{
 					toValue: nextStyle[prop],
 					duration: 200,
-					useNativeDriver: false,
+					//useNativeDriver: true,
 				},
 				Easing.ease
 			);
